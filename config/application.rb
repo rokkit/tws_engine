@@ -45,7 +45,8 @@ module TwsEngine
       :user_name            => 'indmaksim@gmail.com',
       :password             => '14051992',
       :authentication       => 'plain',
-      :enable_starttls_auto => true
+      :enable_starttls_auto => true,
+      :openssl_verify_mode  => 'none'
     }
 
     # Configure the default encoding used in templates for Ruby 1.9.
