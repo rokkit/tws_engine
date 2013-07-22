@@ -21,9 +21,7 @@ end
 
 gem 'locomotive_cms', '~> 2.2.2', :require => 'locomotive/engine'
 
-group :development do
   gem 'unicorn'
-end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
