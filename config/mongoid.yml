@@ -3,7 +3,8 @@ defaults: &defaults
   port: 27017
   sessions:
         default:
-          hosts: localhost
+          hosts: 
+            - localhost:27017
           database: locomotive_prod
   # slaves:
   #   - host: slave1.local
@@ -25,6 +26,7 @@ production:
    database: locomotive_prod
    sessions:
         default:
-          hosts: localhost
+          hosts: 
+            - localhost:27017
           database: locomotive_prod
 
